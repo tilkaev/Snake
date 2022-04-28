@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Snake"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="470" Width="450" Background="ForestGreen" ResizeMode="NoResize" KeyDown="MainCanvas_KeyDown">
+    <Canvas x:Name="MainCanvas" Width="100" Height="100" Background="Black">
+
         
-    </Grid>
+        <Button x:Name="BtnStart" Content="Start" Background="AliceBlue" Width="50" Canvas.Left="176" Canvas.Top="340"/>
+    </Canvas>
 </Window>
